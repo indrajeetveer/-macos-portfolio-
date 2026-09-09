@@ -1,0 +1,71 @@
+.dock {
+  display: flex;
+  gap: 0.7rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-inline: 0.7rem;
+  padding-block: 0.6rem;
+  border-radius: 0.7rem;
+  background-color: rgba(164, 163, 163, 0.3);
+  backdrop-filter: blur(15px);
+
+  .icon {
+    padding: 0.65rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    width: 3.70rem;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+
+  .icon img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .github {
+    background-color: rgba(0, 0, 0, 0.922);
+  }
+
+  .notebook {
+    background-color: rgba(0, 0, 0, 0.922);
+  }
+
+  .pdf {
+    background-color: rgba(0, 0, 0, 0.922);
+  }
+
+  .spotify {
+    background-color: rgba(0, 0, 0, 0.922);
+  }
+
+  .gmail {
+    background-color: rgba(0, 0, 0, 0.922);
+  }
+
+  .calender {
+    background-color: rgba(0, 0, 0, 0.922);
+  }
+
+  .cli {
+    background-color: rgba(0, 0, 0, 0.922);
+  }
+
+  .link {
+    background-color: rgba(0, 0, 0, 0.922);
+  }
+
+  .icon:hover{
+    transform: scale(1.30) translateY(-20%);
+  }
+
+  .icon:hover + .icon,
+  .icon:has(+ .icon:hover)
+  {
+    transform: scale(1.1) translateY(-10%);
+  }
+}
