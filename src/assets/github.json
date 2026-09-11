@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "/images/portfolio.png",
+    "title": "MacOS Portfolio",
+    "Description": "An interactive macOS-inspired portfolio built with React, featuring draggable and resizable windows, a dock, and a desktop interface.",
+    "tags": ["React", "SCSS", "JavaScript"],
+    "repolink": "https://github.com/indrajeetveer/indrajeetveer-dev",
+    "demolink": "#"
+  },
+  {
+    "id": 2,
+    "image": "/images/expense-tracker.png",
+    "title": "Personal Expense Tracker",
+    "Description": "A personal finance application to manage budgets, add expenses, and calculate the remaining balance using React state management.",
+    "tags": ["React", "Tailwind CSS", "useState"],
+    "repolink": "https://github.com/indrajeetveer/indrajeetveer-dev",
+    "demolink": "#"
+  },
+  {
+    "id": 3,
+    "image": "/images/product-store.png",
+    "title": "Product Store",
+    "Description": "A product browsing application with API data fetching, product cards, and detailed product pages using React Router and Context API.",
+    "tags": ["React", "Axios", "React Router", "API"],
+    "repolink": "https://github.com/indrajeetveer/indrajeetveer-dev",
+    "demolink": "#"
+  },
+  {
+    "id": 4,
+    "image": "/images/dom-projects.png",
+    "title": "DOM Mini Projects",
+    "Description": "A collection of JavaScript projects designed to practice DOM manipulation, event handling, and frontend logic.",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "repolink": "https://github.com/indrajeetveer/indrajeetveer-dev",
+    "demolink": "#"
+  },
+  {
+    "id": 5,
+    "image": "/images/github-search.png",
+    "title": "GitHub User Search",
+    "Description": "A React application that fetches GitHub user information using an API and displays profiles, followers, following, and public repositories.",
+    "tags": ["React", "Axios", "useEffect", "API"],
+    "repolink": "https://github.com/indrajeetveer/indrajeetveer-dev",
+    "demolink": "#"
+  }
+]

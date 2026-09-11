@@ -1,14 +1,16 @@
 import React from "react";
 import Dock from "./components/Dock";
 import Nav from "./components/Nav";
+import GitHub from "./components/windows/GitHub";
 
 const App = () => {
-  return(
+  return (
     <main>
-      <Nav/>
-      <Dock/>
+      <Nav />
+      <Dock />
+      <GitHub/>
     </main>
-  )   
+  );
 };
 
 export default App;
