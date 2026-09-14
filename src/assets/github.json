@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "image": "/images/portfolio.png",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
     "title": "MacOS Portfolio",
     "Description": "An interactive macOS-inspired portfolio built with React, featuring draggable and resizable windows, a dock, and a desktop interface.",
     "tags": ["React", "SCSS", "JavaScript"],
     "repolink": "https://github.com/indrajeetveer/indrajeetveer-dev",
-    "demolink": "#"
+    "demolink": "https://indrajeetveer.github.io/indrajeetveer-dev/"
   },
   {
     "id": 2,
-    "image": "/images/expense-tracker.png",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
     "title": "Personal Expense Tracker",
     "Description": "A personal finance application to manage budgets, add expenses, and calculate the remaining balance using React state management.",
     "tags": ["React", "Tailwind CSS", "useState"],
     "repolink": "https://github.com/indrajeetveer/indrajeetveer-dev",
-    "demolink": "#"
+    "demolink": "https://indrajeetveer.github.io/indrajeetveer-dev/"
   },
   {
     "id": 3,
-    "image": "/images/product-store.png",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
     "title": "Product Store",
     "Description": "A product browsing application with API data fetching, product cards, and detailed product pages using React Router and Context API.",
     "tags": ["React", "Axios", "React Router", "API"],
     "repolink": "https://github.com/indrajeetveer/indrajeetveer-dev",
-    "demolink": "#"
+    "demolink": "https://indrajeetveer.github.io/indrajeetveer-dev/"
   },
   {
     "id": 4,
-    "image": "/images/dom-projects.png",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
     "title": "DOM Mini Projects",
     "Description": "A collection of JavaScript projects designed to practice DOM manipulation, event handling, and frontend logic.",
     "tags": ["JavaScript", "HTML", "CSS"],
     "repolink": "https://github.com/indrajeetveer/indrajeetveer-dev",
-    "demolink": "#"
+    "demolink": "https://indrajeetveer.github.io/indrajeetveer-dev/"
   },
   {
     "id": 5,
-    "image": "/images/github-search.png",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
     "title": "GitHub User Search",
     "Description": "A React application that fetches GitHub user information using an API and displays profiles, followers, following, and public repositories.",
     "tags": ["React", "Axios", "useEffect", "API"],
     "repolink": "https://github.com/indrajeetveer/indrajeetveer-dev",
-    "demolink": "#"
+    "demolink": "https://indrajeetveer.github.io/indrajeetveer-dev/"
   }
 ]

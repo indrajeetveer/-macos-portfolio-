@@ -1,8 +1,7 @@
 .window {
-  height: 400px;
-  width: 600px;
   background-color: black;
   border-radius: 0.75rem;
+  height: 100%;
   overflow: hidden;
   color: rgb(205, 194, 194);
   font-family:
@@ -53,6 +52,15 @@
   }
 
   .main-content {
-    height:100%;
+    height: 100%;
+  }
+
+  *::-webkit-scrollbar{
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-thumb{
+    background-color: rgb(168, 168, 168,0.4);
+    border-radius: 4px;
   }
 }

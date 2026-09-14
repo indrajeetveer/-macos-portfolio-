@@ -1,0 +1,262 @@
+interface ProfessionalProfile {
+  name: "Indrajeet Veer";
+  role: "Frontend Developer";
+  introduction: "Hello, my name is Indrajeet Veer. I am a frontend developer focused on building modern, responsive, and interactive web applications. I enjoy creating user-friendly interfaces, learning new technologies, and improving my programming skills through practical projects.";
+  professionalSummary: "I am a frontend developer with practical experience in React.js, JavaScript, and responsive web development. I have worked on projects involving interactive desktop interfaces, expense management, product APIs, and GitHub user search. I am currently expanding my knowledge of TypeScript and advanced React concepts.";
+  technicalSkills: TechnicalSkills;
+  projects: Project[];
+  professionalStrengths: string[];
+  careerObjective: "To become a skilled frontend developer specializing in React.js and TypeScript, building production-quality web applications and continuously improving my technical skills, problem-solving abilities, and software development practices.";
+}
+
+interface TechnicalSkills {
+  frontendDevelopment: [
+    "HTML5",
+    "CSS3",
+    "JavaScript (ES6+)",
+    "TypeScript",
+    "React.js",
+    "React Hooks",
+    "React Router",
+    "Context API"
+  ];
+
+  stylingAndUserInterface: [
+    "Tailwind CSS",
+    "SCSS",
+    "Responsive Web Design",
+    "CSS Flexbox",
+    "CSS Grid"
+  ];
+
+  toolsAndTechnologies: [
+    "Vite",
+    "Axios",
+    "Git",
+    "GitHub",
+    "REST API Integration"
+  ];
+
+  developmentConcepts: [
+    "Component Architecture",
+    "State Management",
+    "API Integration",
+    "Asynchronous JavaScript",
+    "Conditional Rendering",
+    "Reusable Components"
+  ];
+}
+
+interface Project {
+  id: 1 | 2 | 3 | 4;
+
+  title:
+    | "Interactive macOS Portfolio"
+    | "Personal Expense Tracker"
+    | "Product API Application"
+    | "GitHub User Search";
+
+  description: string;
+
+  technologiesUsed: string[];
+
+  features: string[];
+
+  learningOutcomes: string[];
+
+  status: "Completed";
+}
+
+const professionalWork: ProfessionalProfile = {
+  name: "Indrajeet Veer",
+
+  role: "Frontend Developer",
+
+  introduction:
+    "Hello, my name is Indrajeet Veer. I am a frontend developer focused on building modern, responsive, and interactive web applications. I enjoy creating user-friendly interfaces, learning new technologies, and improving my programming skills through practical projects.",
+
+  professionalSummary:
+    "I am a frontend developer with practical experience in React.js, JavaScript, and responsive web development. I have worked on projects involving interactive desktop interfaces, expense management, product APIs, and GitHub user search. I am currently expanding my knowledge of TypeScript and advanced React concepts.",
+
+  technicalSkills: {
+    frontendDevelopment: [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "React.js",
+      "React Hooks",
+      "React Router",
+      "Context API",
+    ],
+
+    stylingAndUserInterface: [
+      "Tailwind CSS",
+      "SCSS",
+      "Responsive Web Design",
+      "CSS Flexbox",
+      "CSS Grid",
+    ],
+
+    toolsAndTechnologies: [
+      "Vite",
+      "Axios",
+      "Git",
+      "GitHub",
+      "REST API Integration",
+    ],
+
+    developmentConcepts: [
+      "Component Architecture",
+      "State Management",
+      "API Integration",
+      "Asynchronous JavaScript",
+      "Conditional Rendering",
+      "Reusable Components",
+    ],
+  },
+
+  projects: [
+    {
+      id: 1,
+      title: "Interactive macOS Portfolio",
+      description:
+        "An interactive macOS-inspired portfolio built with React.js, featuring draggable and resizable windows, a dock, and a desktop interface to showcase my professional skills and projects.",
+      technologiesUsed: [
+        "React.js",
+        "JavaScript",
+        "SCSS",
+        "Vite",
+        "Git",
+        "GitHub",
+      ],
+      features: [
+        "macOS-inspired desktop interface",
+        "Draggable and resizable windows",
+        "Interactive dock navigation",
+        "Desktop application components",
+        "Responsive user interface",
+        "Reusable React components",
+      ],
+      learningOutcomes: [
+        "React component architecture",
+        "CSS positioning and layout",
+        "SCSS styling",
+        "Interactive UI development",
+        "Managing desktop-style interfaces",
+      ],
+      status: "Completed",
+    },
+
+    {
+      id: 2,
+      title: "Personal Expense Tracker",
+      description:
+        "A React application for managing personal budgets and tracking expenses. Users can set a budget, add expenses, and monitor their remaining balance through a responsive interface.",
+      technologiesUsed: [
+        "React.js",
+        "JavaScript",
+        "React Hooks",
+        "Tailwind CSS",
+      ],
+      features: [
+        "Add and update budgets",
+        "Add and manage expenses",
+        "Calculate total expenses",
+        "Calculate remaining balance",
+        "Display spending warnings",
+        "Responsive interface",
+      ],
+      learningOutcomes: [
+        "useState",
+        "Controlled inputs",
+        "Array map method",
+        "Array reduce method",
+        "Conditional rendering",
+        "Managing application state",
+      ],
+      status: "Completed",
+    },
+
+    {
+      id: 3,
+      title: "Product API Application",
+      description:
+        "A React application that fetches product data from an external API and displays products in responsive cards with individual product detail pages.",
+      technologiesUsed: [
+        "React.js",
+        "JavaScript",
+        "Axios",
+        "Context API",
+        "React Router",
+        "Vite",
+        "Tailwind CSS",
+      ],
+      features: [
+        "Fetch product data from an API",
+        "Display product cards",
+        "Product detail pages",
+        "Dynamic routing",
+        "Shared product state using Context API",
+        "Responsive product interface",
+      ],
+      learningOutcomes: [
+        "API integration",
+        "useEffect",
+        "useContext",
+        "useParams",
+        "Asynchronous data fetching",
+        "Dynamic routing",
+      ],
+      status: "Completed",
+    },
+
+    {
+      id: 4,
+      title: "GitHub User Search",
+      description:
+        "A React application that searches for GitHub users using the GitHub REST API and displays profile information, followers, following, and public repository statistics.",
+      technologiesUsed: [
+        "React.js",
+        "JavaScript",
+        "Axios",
+        "GitHub REST API",
+        "Tailwind CSS",
+      ],
+      features: [
+        "Search GitHub users",
+        "Display user profiles",
+        "Show followers and following",
+        "Show public repositories",
+        "Handle API responses",
+        "Responsive profile interface",
+      ],
+      learningOutcomes: [
+        "useState",
+        "useEffect",
+        "API requests",
+        "Conditional rendering",
+        "Handling asynchronous data",
+        "Displaying dynamic data",
+      ],
+      status: "Completed",
+    },
+  ],
+
+  professionalStrengths: [
+    "Problem-solving and logical thinking",
+    "React.js development",
+    "JavaScript programming",
+    "Debugging and troubleshooting",
+    "Reusable component development",
+    "Responsive UI development",
+    "API integration",
+    "Clean and maintainable code",
+    "Continuous learning",
+  ],
+
+  careerObjective:
+    "To become a skilled frontend developer specializing in React.js and TypeScript, building production-quality web applications and continuously improving my technical skills, problem-solving abilities, and software development practices.",
+};
+
+export default professionalWork;

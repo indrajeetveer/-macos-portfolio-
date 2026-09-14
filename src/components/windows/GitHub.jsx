@@ -17,8 +17,8 @@ const GitCard = ({
   return (
     <div className="card">
       <img src={data.image} alt="img" />
-      <h1>{data.titel}</h1>
-      <p>{data.Description}</p>
+      <h1>{data.title}</h1>
+      <p className="description">{data.Description}</p>
 
       <div className="tags">
         {data.tags.map((tag) => (
@@ -28,7 +28,7 @@ const GitCard = ({
 
       <div className="urls">
         <a href={data.repolink}>Repository</a>
-        <a href={data.demolink}>Demolink</a>
+        {data.demolink && <a href={data.demolink}>Demolink</a>}
       </div>
     </div>
   );
